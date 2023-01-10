@@ -45,27 +45,17 @@ function toggleSlide(product) {
 //     document.querySelector('.product__popup').style.display = 'none';
 //   }
 
-
-// $(document).ready(function() {
-// 	$('.product__parent-img').magnificPopup({
-// 		delegate: 'a',
-// 		type: 'image',
-// 		tLoading: 'Loading image',
-// 		mainClass: 'mfp-img-mobile',
-// 		gallery: {
-// 			enabled: true,
-// 			navigateByImgClick: true,
-// 			preload: [0,1]
-// 		},
-// 		image: {
-// 			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-// 			titleSrc: function(item) {
-// 			}
-// 		}
-// 	});
-// });
-
-
+$(document).ready(function() {
+	$('.work__img').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1]
+		}
+	});
+});
 $(document).ready(function() {
     $('.product__parent-img').magnificPopup({
         type:'image',
