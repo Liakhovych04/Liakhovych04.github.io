@@ -1,3 +1,4 @@
+
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.navigation__list'),
     menuItem = document.querySelectorAll('.navigation__item'),
