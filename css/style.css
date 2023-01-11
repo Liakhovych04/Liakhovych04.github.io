@@ -18,7 +18,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Roboto';
 }
 .container{
     max-width: 1100px;
@@ -71,7 +71,7 @@ body{
     text-align: center;
     color: #FFFAFA;
     padding: 190px 0px 0px 0px;
-    font-size: 40px;
+    font-size: 47px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -89,7 +89,7 @@ body{
     color: #FFFAFA;
     padding: 35px 0px 0px 0px;
     font-size: 19px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 30px;
 }
 .promo__descr-partners{
@@ -159,7 +159,7 @@ body{
     border-radius: 10px;
     border: 2px solid gold;
     background-color: #fff;
-    padding: 20px 20px;
+    padding: 5px;
     overflow: hidden;
     margin-left: 5px;
     margin-bottom: 20px;
@@ -319,7 +319,7 @@ body{
 }
 .info__map{
     padding: 18px;
-    background-color: gray;
+    background-color: #a9a9a9;
 }
 iframe{
     box-shadow: 2px 2px 10px 5px #000;
@@ -431,16 +431,16 @@ iframe{
 
 @media (max-width: 575px) {
     .promo__header{
-        padding: 130px 0px 0px 0px;
+        padding: 90px 0px 0px 0px;
         font-size: 24px;
     }
     .promo__subheader{
-        font-size: 30px;
-        line-height: 50px;
+        font-size: 34px;
+        line-height: 70px;
         padding: 20px 0px 0px 0px;
     }
     .promo__descr{
-        padding: 70px 0px 0px 0px;
+        padding: 140px 0px 0px 0px;
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
