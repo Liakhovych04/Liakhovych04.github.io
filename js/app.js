@@ -2231,7 +2231,7 @@ PERFORMANCE OF THIS SOFTWARE.
         }));
         modules_flsModules.gallery = galleyItems;
     }
-    window["FLS"] = true;
+    window["FLS"] = false;
     isWebp();
     menuInit();
     spollers();
