@@ -579,8 +579,8 @@ body {
 .about__image._watcher-view,
 .works__item._watcher-view,
 .contacts__photo._watcher-view {
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
   -webkit-transform: translate(0px, 0px);
       -ms-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
@@ -615,17 +615,17 @@ body {
   -webkit-box-shadow: 0rem 0.25rem 0.5rem rgba(41, 53, 60, 0.5);
           box-shadow: 0rem 0.25rem 0.5rem rgba(41, 53, 60, 0.5);
   border-radius: 0.625rem;
-  -webkit-transform: translate(-70%, 0);
-      -ms-transform: translate(-70%, 0);
-          transform: translate(-70%, 0);
+  -webkit-transform: translate(-25%, 0);
+      -ms-transform: translate(-25%, 0);
+          transform: translate(-25%, 0);
   opacity: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .skills__item._watcher-view {
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
@@ -671,17 +671,17 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  -webkit-transform: translate(70%, 0);
-      -ms-transform: translate(70%, 0);
-          transform: translate(70%, 0);
+  -webkit-transform: translate(25%, 0);
+      -ms-transform: translate(25%, 0);
+          transform: translate(25%, 0);
   opacity: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .certificates__item._watcher-view {
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
